@@ -130,6 +130,24 @@ input::-webkit-input-placeholder {
 	height: auto;
 }
 
-/*productos*/
+/*productos planificadores*/
+
+.planificadores h2 {
+	text-align: center;
+	margin-bottom: 2.5em;
+}
+
+.producto {
+	padding: 2em;
+	margin-bottom: 3em;
+}
+
+.producto_planificadores {
+	width: 18rem;
+}
+
+.boton_planificadores {
+	text-align: center;
+}
 
 
