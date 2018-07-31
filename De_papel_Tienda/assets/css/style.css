@@ -7,9 +7,10 @@
 
 .menu {
 	padding: 0 16px 0 16px;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
 }
-
-
 
 /*boton buscar */
 
@@ -72,28 +73,63 @@ input::-webkit-input-placeholder {
 	color: #999;
 }
 
-/* Demo 2 */
-#demo-2 input[type=search] {
+/* buscando */
+#buscar input[type=search] {
 	width: 15px;
 	padding-left: 10px;
 	color: transparent;
 	cursor: pointer;
 }
-#demo-2 input[type=search]:hover {
+#buscar input[type=search]:hover {
 	background-color: #fff;
 }
-#demo-2 input[type=search]:focus {
+#buscar input[type=search]:focus {
 	width: 130px;
 	padding-left: 32px;
 	color: #000;
 	background-color: #fff;
 	cursor: auto;
 }
-#demo-2 input:-moz-placeholder {
+#buscar input:-moz-placeholder {
 	color: transparent;
 }
-#demo-2 input::-webkit-input-placeholder {
+#buscar input::-webkit-input-placeholder {
 	color: transparent;
 }
 
-/*termino del boton buscar*/
+/*carousel*/
+
+#carousel_home img {
+	height: 100vh;
+	/*viewport vw widht y vh height*/
+}
+
+/*quienes somos*/
+
+#quienes_somos2 {
+	padding:4em;
+	min-height: 25em;
+
+}
+
+#quienes_somos1 {
+	padding: 9em 7em;
+	text-align: justify;
+}
+
+#quienes_somos1 h2{
+	text-align: left;
+}
+
+#quienes_somos1, #quienes_somos2 {
+	box-sizing: border-box;
+}
+
+.plan1 {
+	max-width: 100%;
+	height: auto;
+}
+
+/*productos*/
+
+
