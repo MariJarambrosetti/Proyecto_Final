@@ -114,11 +114,7 @@ input::-webkit-input-placeholder {
 
 #quienes_somos1 {
 	padding: 9em 7em;
-	text-align: justify;
-}
-
-#quienes_somos1 h2{
-	text-align: left;
+	text-align: center;
 }
 
 #quienes_somos1, #quienes_somos2 {
@@ -148,13 +144,22 @@ input::-webkit-input-placeholder {
 
 .boton_planificadores {
 	text-align: center;
-	margin-bottom: 8em;
+	margin-bottom: 5em;
 }
 
 /*eventos especiales*/
 
-.evenos_fila_1 {
+.eventos_especiales {
+	margin-bottom: 5em;
+}
+
+.eventos_fila_1, .eventos_fila_2 {
 	box-sizing: border-box;
+}
+
+.eventos_fila_2 {
+	padding: 9em 4em 3em 3em;
+	text-align: center;
 }
 
 .eventos_img1{
@@ -188,6 +193,28 @@ input::-webkit-input-placeholder {
 	height: 251px;
 	float: left;
 }
+
+/*Socios*/
+
+#socios {
+	text-align: center;
+}
+
+#socios h2 {
+	margin-bottom: 2em;
+}
+
+.socios_img {
+	max-width: 50%;
+	border: solid 2px #2c9caa;
+	border-radius: 100px;
+	margin-bottom: 3em;
+}
+.socios_div {
+	padding: 0 10em;
+}
+
+
 
 
 
