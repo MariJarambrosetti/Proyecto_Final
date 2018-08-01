@@ -169,6 +169,7 @@ input::-webkit-input-placeholder {
 	display: inline-block;
 	box-sizing: border-box;
     border: solid 1em white;
+    border-radius: 20px;
 
 }
 
