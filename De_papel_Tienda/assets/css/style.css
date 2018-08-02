@@ -1,15 +1,30 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
 /*menu */
 
 .logo {
 	max-width: 50%;
 	height: auto;
 }
-
 .menu {
 	padding: 0 16px 0 16px;
 	position: fixed;
 	z-index: 1;
 	width: 100%;
+	background-image: url(../img/menu.png);
+	background-color: transparent!important;
+	background-position: top;
+    background-size: cover;
+}
+
+.menu_inner {
+	margin-top: 5em;
+}
+
+.marca {
+	margin-top: 0.5em;
 }
 
 /*boton buscar */
@@ -124,6 +139,7 @@ input::-webkit-input-placeholder {
 .plan1 {
 	max-width: 100%;
 	height: auto;
+	border-radius: 20px;
 }
 
 /*productos planificadores*/
