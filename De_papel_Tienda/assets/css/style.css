@@ -217,8 +217,17 @@ input::-webkit-input-placeholder {
 
 .fa-globe, .fa-facebook-square, .fa-instagram {
 	font-size: 25px;
-	color: #2c9caa;
+	color: #3bb0a3;
 	margin: 0.3em;
+}
+
+.fa-globe:hover, .fa-facebook-square:hover, .fa-instagram:hover {
+	font-size: 25px;
+	color: #1a8074;
+	margin: 0.3em;
+}
+
+.creativas a, .goso a{
 	text-decoration: none;
 }
 
@@ -229,6 +238,33 @@ input::-webkit-input-placeholder {
 	margin-bottom: 3em;
 }
 
+.insta {
+	margin-bottom: 2em;
+}
 
+/*footer*/
 
+.footer {
+	background-color: #5b2768;
+	color: white;
+	padding: 1em;
+}
+
+.footer p {
+	text-align: center;
+}
+
+.footer_inner {
+	padding: 3em;
+}
+
+.footer_inner a {
+	text-decoration: none;
+	color: white;
+}
+
+.footer_inner a:hover {
+	text-decoration: none;
+	color: #e45d93;
+}
 
