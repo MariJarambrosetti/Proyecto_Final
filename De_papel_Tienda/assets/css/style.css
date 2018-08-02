@@ -198,6 +198,7 @@ input::-webkit-input-placeholder {
 
 #socios {
 	text-align: center;
+	margin-bottom: 7em;
 }
 
 #socios h2 {
@@ -221,12 +222,12 @@ input::-webkit-input-placeholder {
 	text-decoration: none;
 }
 
-/*instagram*/
+/*instagram */
 
-.instafeed {
-	box-sizing: border-box;
+.insta h2 {
+	text-align: center;
+	margin-bottom: 3em;
 }
-
 
 
 
