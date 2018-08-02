@@ -214,6 +214,19 @@ input::-webkit-input-placeholder {
 	padding: 0 10em;
 }
 
+.fa-globe, .fa-facebook-square, .fa-instagram {
+	font-size: 25px;
+	color: #2c9caa;
+	margin: 0.3em;
+	text-decoration: none;
+}
+
+/*instagram*/
+
+.instafeed {
+	box-sizing: border-box;
+}
+
 
 
 
