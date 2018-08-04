@@ -27,7 +27,7 @@ $(document).ready(function() {
 
 	$(window).scroll(function(event) {
 		event.preventDefault();
-		if ( $(window).scrollTop() ) {
+		if ( $(window).scrollTop() > 400 ) {
 			$("#logo").attr('src', 'assets/img/depapel_1.png');
 		} else {
 			$("#logo").attr('src', 'assets/img/depapel.png');
