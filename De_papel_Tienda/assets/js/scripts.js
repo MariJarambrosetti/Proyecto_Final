@@ -17,7 +17,20 @@ $(document).ready(function() {
 		event.preventDefault();
 		if ( $(window).scrollTop() ) {
 			$("#logo").attr('src', 'assets/img/depapel_1.png');
-		} else {$("#logo").attr('src', 'assets/img/depapel.png');}
+		} else {
+			$("#logo").attr('src', 'assets/img/depapel.png');
+		}
+	});
+
+	// regla para el cambio de color del menu
+
+	$(window).scroll(function(event) {
+		event.preventDefault();
+		if ( $(window).scrollTop() ) {
+			$(".nav-link").attr('style', 'color :#343a40!important');
+		} else {
+			$(".nav-link").attr('style', 'color :white!important');
+		}
 	});
 
 });
