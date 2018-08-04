@@ -280,6 +280,12 @@ input::-webkit-input-placeholder {
 	padding: 3em;
 }
 
+.footer_inner h5{
+	margin-bottom: 2em;
+	border-bottom: 1px solid;
+    line-height: 2em;
+}
+
 .footer_inner a {
 	text-decoration: none;
 	color: white;
@@ -288,5 +294,9 @@ input::-webkit-input-placeholder {
 .footer_inner a:hover {
 	text-decoration: none;
 	color: #e45d93;
+}
+
+#map {
+	height: 9em;
 }
 
