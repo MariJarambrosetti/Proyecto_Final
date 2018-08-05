@@ -124,11 +124,25 @@ input::-webkit-input-placeholder {
 
 #carousel_home img {
 	height: 100vh;
+	object-fit: cover;
 	/*viewport vw widht y vh height*/
 }
 
-.carousel-caption {
+.carousel-caption h1 {
+ 	text-align: left;
+ 	font-size: 4em;
+ 	text-shadow: 2px 2px #585353;
+ 	font-weight: 700;
+}
 
+.carousel-caption p {
+	letter-spacing: 2px;
+ 	text-align: left;
+ 	text-shadow: 2px 2px #585353;
+} 
+
+.carousel-caption {
+	left: 4%;
 }
 
 /*quienes somos*/
@@ -167,12 +181,17 @@ input::-webkit-input-placeholder {
 }
 
 .producto_planificadores {
-	width: 18rem;
+	max-width: 100%;
 }
 
 .boton_planificadores {
 	text-align: center;
 	margin-bottom: 5em;
+}
+
+.btn-primary {
+	background-color: #17a2b8;
+	border-color: #128496;
 }
 
 /*eventos especiales*/
@@ -306,14 +325,68 @@ input::-webkit-input-placeholder {
 	height: 9em;
 }
 
-/*////SMARTHPHONE////*/
+/*////   TABLET GRANDE  ////*/
 
-@media only screen and (max-width: 600px) {
+@media (min-width: 781px ) and (max-width: 980px){
+
+	/*Quienes Somos*/
+	#quienes_somos1 {
+    	padding: 4em 2em;
+	}
+
+	#quienes_somos1 h2 {
+		font-size: 1.5em;
+	}
+
+	#quienes_somos1 p {
+		font-size: 0.8em;
+	}
+
+	.card-text {
+		display: none;
+	}
+
+	.socios_div {
+		padding: 0 2em;
+	}
+
+}
+
+
+/*////   TABLET PEQUEÑO  ////*/ 
+
+@media (min-width: 601px) and (max-width: 780px) {
 	
+	/*Carousel*/
 	#carousel_home img {
-		height: 50vh;
-		object-fit: cover;
-		/*viewport vw widht y vh height*/
+		height: 70vh;
+	}
+
+	/*Socios*/
+
+	.socios_img {
+    	max-width: 60%;
 	}
 }
+
+/*////    SMARTHPHONE    ////*/
+
+@media (max-width: 600px){
+
+	/*Carousel*/
+	#carousel_home img {
+		height: 50vh;
+	}
+
+	.carousel-caption h1 {
+		font-size: 2em;
+	}
+
+	.carousel-caption p {
+		text-align: left;
+	} 
+}
+
+
+
 
