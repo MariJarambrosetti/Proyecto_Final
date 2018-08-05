@@ -1,3 +1,5 @@
+/*////DESKTOP////*/
+
 body {
 	font-family: 'Lato', sans-serif;
 	scroll-behavior: smooth;
@@ -123,6 +125,10 @@ input::-webkit-input-placeholder {
 #carousel_home img {
 	height: 100vh;
 	/*viewport vw widht y vh height*/
+}
+
+.carousel-caption {
+
 }
 
 /*quienes somos*/
@@ -298,5 +304,16 @@ input::-webkit-input-placeholder {
 
 #map {
 	height: 9em;
+}
+
+/*////SMARTHPHONE////*/
+
+@media only screen and (max-width: 600px) {
+	
+	#carousel_home img {
+		height: 50vh;
+		object-fit: cover;
+		/*viewport vw widht y vh height*/
+	}
 }
 
