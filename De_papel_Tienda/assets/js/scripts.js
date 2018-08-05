@@ -38,7 +38,7 @@ $(document).ready(function() {
 
 	$(window).scroll(function(event) {
 		event.preventDefault();
-		if ( $(window).scrollTop() ) {
+		if ( $(window).scrollTop() > 400 ) {
 			$(".nav-link").attr('style', 'color :#343a40!important');
 		} else {
 			$(".nav-link").attr('style', 'color :white!important');
