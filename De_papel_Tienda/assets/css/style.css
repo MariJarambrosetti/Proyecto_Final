@@ -35,6 +35,14 @@ body {
 	font-weight: 700;
 }
 
+.dropdown-menu {
+	background-color: rgba(91, 39, 104, 0.8);
+}
+
+.dropdown-item {
+	color: white;
+}
+
 /*boton buscar */
 
 a {
@@ -162,10 +170,11 @@ input::-webkit-input-placeholder {
 	box-sizing: border-box;
 }
 
-.plan1 {
+.quienes_somos2_img {
 	max-width: 100%;
 	height: auto;
 	border-radius: 20px;
+	object-fit: cover;
 }
 
 /*productos planificadores*/
@@ -350,6 +359,22 @@ input::-webkit-input-placeholder {
 		padding: 0 2em;
 	}
 
+	/*Hamburguesa*/
+
+	.navbar-toggler, .dropdown-menu {
+		background-color: rgba(91, 39, 104, 0.8);
+	}
+
+	.navbar-collapse {
+		background-color: rgba(91, 39, 104, 0.8);
+		text-align: center;
+	}
+
+	.dropdown-item {
+		background-color: rgba(91, 39, 104, 0.8);
+		color: white;
+	}
+
 }
 
 
@@ -357,16 +382,82 @@ input::-webkit-input-placeholder {
 
 @media (min-width: 601px) and (max-width: 780px) {
 	
-	/*Carousel*/
-	#carousel_home img {
-		height: 70vh;
+	/*Quienes somos*/
+	#quienes_somos1 {
+    	padding: 4em 6em;
+	}
+
+	#quienes_somos2 {
+		padding: 0 1em 4em 1em;
+		text-align: center;
+	}
+
+	.quienes_somos2_img {
+		border-radius: 10px;
+	}
+
+	/*Producto */
+
+	.producto_div {
+		padding-bottom: 2em;
+	}
+
+	.planificadores h2 {
+		margin-bottom: 0.7em;
+	}
+
+	.boton_planificadores {
+		margin-bottom: 3em;
+	}
+
+	.producto {
+		margin-bottom: 0;
+	}
+
+	/*Eventos*/
+
+	.eventos_fila_2 {
+		padding: 3em 5em;
+	}
+
+	.eventos_especiales {
+		margin-bottom: 1em;
 	}
 
 	/*Socios*/
 
 	.socios_img {
     	max-width: 60%;
+    	margin-bottom: 2em;
 	}
+
+
+	.socios_div {
+		padding:0 2em;
+	}
+
+	/*instagram */
+
+	.insta_imagen {
+		padding: 0 0.1em;
+	}
+
+	/*Hamburguesa*/
+
+	.navbar-toggler, .dropdown-menu {
+		background-color: rgba(91, 39, 104, 0.8);
+	}
+
+	.navbar-collapse {
+		background-color: rgba(91, 39, 104, 0.8);
+		text-align: center;
+	}
+
+	.dropdown-item {
+		background-color: rgba(91, 39, 104, 0.8);
+		color: white;
+	}
+
 }
 
 /*////    SMARTHPHONE    ////*/
@@ -374,9 +465,6 @@ input::-webkit-input-placeholder {
 @media (max-width: 600px){
 
 	/*Carousel*/
-	#carousel_home img {
-		height: 50vh;
-	}
 
 	.carousel-caption h1 {
 		font-size: 2em;
@@ -385,6 +473,23 @@ input::-webkit-input-placeholder {
 	.carousel-caption p {
 		text-align: left;
 	} 
+
+	/*Hamburguesa*/
+
+	.navbar-toggler, .dropdown-menu {
+		background-color: rgba(91, 39, 104, 0.8);
+	}
+
+	.navbar-collapse {
+		background-color: rgba(91, 39, 104, 0.8);
+		text-align: center;
+	}
+
+	.dropdown-item {
+		background-color: rgba(91, 39, 104, 0.8);
+		color: white;
+	}
+
 }
 
 

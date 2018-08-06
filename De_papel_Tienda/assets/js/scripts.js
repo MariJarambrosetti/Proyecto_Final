@@ -19,7 +19,7 @@ $(document).ready(function() {
 		userId: '4937064559',
 		limit: '7',
 		accessToken: '4937064559.1677ed0.f024df80ce4441758db21a4970469d64',
-		template: '<div class ="col-md"><a href="{{link}}"><img class="img-fluid insta" src="{{image}}"</a></div>'
+		template: '<div class ="insta_imagen col-md col-sm"><a href="{{link}}"><img class="img-fluid insta" src="{{image}}"</a></div>'
 	});
 	userFeed.run();
 
@@ -35,17 +35,25 @@ $(document).ready(function() {
 	});
 
 	// regla para el cambio de color del menu
+	
 
-	$(window).scroll(function(event) {
+	$(window).resize(function(event) {
 		event.preventDefault();
-		if ( $(window).scrollTop() > 400 ) {
-			$(".nav-link").attr('style', 'color :#343a40!important');
-		} else {
+		if ($(window).width() > 980) {
+			// si windows mide más de 980, ejecutará el cambio de color con el scroll
+			$(window).scroll(function(event) {
+				event.preventDefault();
+				if ( $(window).scrollTop() > 400 ) {
+					$(".nav-link").attr('style', 'color :#343a40!important');
+				} else {
+					$(".nav-link").attr('style', 'color :white!important');
+				}
+			});
+		} else { 
+			// si windows es menor a 980 se mantendrá en blanco el color 
 			$(".nav-link").attr('style', 'color :white!important');
 		}
 	});
-
-
 });
 
 
