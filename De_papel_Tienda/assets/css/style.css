@@ -474,6 +474,62 @@ input::-webkit-input-placeholder {
 		text-align: left;
 	} 
 
+	/*quienes somos*/
+
+	#quienes_somos1 {
+   	   padding: 3em 1em;
+	}
+
+	.quienes_somos2_img{
+		border-radius: 0;
+		width: 600px;
+	}
+
+	#quienes_somos2 {
+		padding: 0;
+		margin-bottom: 3em;
+		min-height: 0;
+	}
+
+	/*productos*/
+
+	.planificadores h2 {
+		margin-bottom: 0.5em;
+	}
+
+	.producto_div {
+		margin-bottom: 2em;
+	}
+
+	/*eventos*/
+
+	.eventos_fila_2 {
+		padding: 2em 3em;
+	}
+
+	.eventos_especiales {
+		margin-bottom: 2em;
+	}
+
+	/*socios*/
+	.socios_div{
+		padding: 2em 2em;
+	}
+
+	#socios h2 {
+		margin-bottom: 1em;
+	}
+
+	#socios {
+	    margin-bottom: 3em;
+	}
+
+	/*instagram*/
+	.insta_imagen {
+		width: 14%;
+		padding: 0;
+	}
+
 	/*Hamburguesa*/
 
 	.navbar-toggler, .dropdown-menu {

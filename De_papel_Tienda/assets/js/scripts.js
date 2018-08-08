@@ -27,7 +27,7 @@ $(document).ready(function() {
 
 	$(window).scroll(function(event) {
 		event.preventDefault();
-		if ( $(window).scrollTop() > 400 ) {
+		if ( $(window).scrollTop() > 300 ) {
 			$("#logo").attr('src', 'assets/img/depapel_1.png');
 		} else {
 			$("#logo").attr('src', 'assets/img/depapel.png');
@@ -40,15 +40,18 @@ $(document).ready(function() {
 	$(window).resize(function(event) {
 		event.preventDefault();
 		if ($(window).width() > 980) {
+
 			// si windows mide más de 980, ejecutará el cambio de color con el scroll
 			$(window).scroll(function(event) {
 				event.preventDefault();
-				if ( $(window).scrollTop() > 400 ) {
+				if ( $(window).scrollTop() > 300 ) {
 					$(".nav-link").attr('style', 'color :#343a40!important');
 				} else {
 					$(".nav-link").attr('style', 'color :white!important');
 				}
+				
 			});
+
 		} else { 
 			// si windows es menor a 980 se mantendrá en blanco el color 
 			$(".nav-link").attr('style', 'color :white!important');
