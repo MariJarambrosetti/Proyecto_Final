@@ -1,0 +1,553 @@
+/*////DESKTOP////*/
+
+body {
+	font-family: 'Lato', sans-serif;
+	scroll-behavior: smooth;
+}
+
+/*menu */
+
+.logo {
+	max-width: 50%;
+	height: auto;
+}
+.menu {
+	padding: 0 16px 0 16px;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	background-image: url(../img/menu.png);
+	background-color: transparent!important;
+	background-position: top;
+    background-size: cover;
+}
+
+.menu_inner {
+	margin-top: 5em;
+}
+
+.marca {
+	margin-top: 0.5em;
+}
+
+.nav-link {
+	color: white!important;
+	font-weight: 700;
+}
+
+.dropdown-menu {
+	background-color: rgba(91, 39, 104, 0.8);
+}
+
+.dropdown-item {
+	color: white;
+}
+
+/*boton buscar */
+
+a {
+	color: #69C;
+	text-decoration: none;
+}
+a:hover {
+	color: #F60;
+}
+
+
+input {
+	outline: none;
+}
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+
+input::-webkit-search-decoration, input::-webkit-search-cancel-button {
+	display: none; 
+}
+
+
+input[type=search] {
+
+	background: #ededed url(../icons/search-solid.svg) no-repeat 9px center;
+	border: solid 1px #ccc;
+	padding: 6px 11px 6px 11px;
+	width: 55px;
+	
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+	
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+
+input[type=search]:focus {
+
+	width: 130px;
+	background-color: #fff;
+	border-color: #66CC75;
+	
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+input:-moz-placeholder {
+	color: #999;
+}
+
+input::-webkit-input-placeholder {
+	color: #999;
+}
+
+/* buscando */
+#buscar input[type=search] {
+	width: 15px;
+	padding-left: 10px;
+	color: transparent;
+	cursor: pointer;
+}
+#buscar input[type=search]:hover {
+	background-color: #fff;
+}
+#buscar input[type=search]:focus {
+	width: 130px;
+	padding-left: 32px;
+	color: #000;
+	background-color: #fff;
+	cursor: auto;
+}
+#buscar input:-moz-placeholder {
+	color: transparent;
+}
+#buscar input::-webkit-input-placeholder {
+	color: transparent;
+}
+
+/*carousel*/
+
+#carousel_home img {
+	height: 100vh;
+	object-fit: cover;
+	/*viewport vw widht y vh height*/
+}
+
+.carousel-caption h1 {
+ 	text-align: left;
+ 	font-size: 4em;
+ 	text-shadow: 2px 2px #585353;
+ 	font-weight: 700;
+}
+
+.carousel-caption p {
+	letter-spacing: 2px;
+ 	text-align: left;
+ 	text-shadow: 2px 2px #585353;
+} 
+
+.carousel-caption {
+	left: 4%;
+}
+
+/*quienes somos*/
+
+#quienes_somos2 {
+	padding:4em;
+	min-height: 25em;
+
+}
+
+#quienes_somos1 {
+	padding: 9em 7em;
+	text-align: center;
+}
+
+#quienes_somos1, #quienes_somos2 {
+	box-sizing: border-box;
+}
+
+.quienes_somos2_img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 20px;
+	object-fit: cover;
+}
+
+/*productos planificadores*/
+
+.planificadores h2 {
+	text-align: center;
+	margin-bottom: 2.5em;
+}
+
+.producto {
+	padding: 2em;
+	margin-bottom: 3em;
+}
+
+.producto_planificadores {
+	max-width: 100%;
+}
+
+.boton_planificadores {
+	text-align: center;
+	margin-bottom: 5em;
+}
+
+.btn-primary {
+	background-color: #17a2b8;
+	border-color: #128496;
+}
+
+/*eventos especiales*/
+
+.eventos_especiales {
+	margin-bottom: 5em;
+}
+
+.eventos_fila_1, .eventos_fila_2 {
+	box-sizing: border-box;
+}
+
+.eventos_fila_2 {
+	padding: 9em 4em 3em 3em;
+	text-align: center;
+}
+
+.eventos_img1{
+	background-image: url(../img/eventos1.jpg);
+	background-size: cover;
+	width: 60%;
+	height: 551px;
+	float: left;
+}
+
+ .eventos_img1, .eventos_img2, .eventos_img3{
+	display: inline-block;
+	box-sizing: border-box;
+    border: solid 1em white;
+    border-radius: 20px;
+
+}
+
+.eventos_img2 {
+	background-image: url(../img/eventos2.jpg);
+	background-size: cover;
+	width: 40%;
+	height: 300px;
+	float: left;
+}
+
+.eventos_img3 {
+	background-image: url(../img/eventos3.jpg);
+	background-size: cover;
+	width: 40%;
+	height: 251px;
+	float: left;
+}
+
+/*Socios*/
+
+#socios {
+	text-align: center;
+	margin-bottom: 7em;
+}
+
+#socios h2 {
+	margin-bottom: 2em;
+}
+
+.socios_img {
+	max-width: 50%;
+	border: solid 2px #2c9caa;
+	border-radius: 100px;
+	margin-bottom: 3em;
+}
+.socios_div {
+	padding: 0 10em;
+}
+
+.fa-globe, .fa-facebook-square, .fa-instagram {
+	font-size: 25px;
+	color: #3bb0a3;
+	margin: 0.3em;
+}
+
+.fa-globe:hover, .fa-facebook-square:hover, .fa-instagram:hover {
+	font-size: 25px;
+	color: #1a8074;
+	margin: 0.3em;
+}
+
+.creativas a, .goso a{
+	text-decoration: none;
+}
+
+/*instagram */
+
+.insta h2 {
+	text-align: center;
+	margin-bottom: 3em;
+}
+
+.insta {
+	margin-bottom: 0.5em;
+}
+
+/*footer*/
+
+.footer {
+	background-color: #5b2768;
+	color: white;
+	padding: 1em;
+}
+
+.footer p {
+	text-align: center;
+}
+
+.footer_inner {
+	padding: 3em;
+}
+
+.footer_inner h5{
+	margin-bottom: 2em;
+	border-bottom: 1px solid;
+    line-height: 2em;
+}
+
+.footer_inner a {
+	text-decoration: none;
+	color: white;
+}
+
+.footer_inner a:hover {
+	text-decoration: none;
+	color: #e45d93;
+}
+
+#map {
+	height: 9em;
+}
+
+/*////   TABLET GRANDE  ////*/
+
+@media (min-width: 781px ) and (max-width: 980px){
+
+	/*Quienes Somos*/
+	#quienes_somos1 {
+    	padding: 4em 2em;
+	}
+
+	#quienes_somos1 h2 {
+		font-size: 1.5em;
+	}
+
+	#quienes_somos1 p {
+		font-size: 0.8em;
+	}
+
+	.card-text {
+		display: none;
+	}
+
+	.socios_div {
+		padding: 0 2em;
+	}
+
+	/*Hamburguesa*/
+
+	.navbar-toggler, .dropdown-menu {
+		background-color: rgba(91, 39, 104, 0.8);
+	}
+
+	.navbar-collapse {
+		background-color: rgba(91, 39, 104, 0.8);
+		text-align: center;
+	}
+
+	.dropdown-item {
+		background-color: rgba(91, 39, 104, 0.8);
+		color: white;
+	}
+
+}
+
+
+/*////   TABLET PEQUEÑO  ////*/ 
+
+@media (min-width: 601px) and (max-width: 780px) {
+	
+	/*Quienes somos*/
+	#quienes_somos1 {
+    	padding: 4em 6em;
+	}
+
+	#quienes_somos2 {
+		padding: 0 1em 4em 1em;
+		text-align: center;
+	}
+
+	.quienes_somos2_img {
+		border-radius: 10px;
+	}
+
+	/*Producto */
+
+	.producto_div {
+		padding-bottom: 2em;
+	}
+
+	.planificadores h2 {
+		margin-bottom: 0.7em;
+	}
+
+	.boton_planificadores {
+		margin-bottom: 3em;
+	}
+
+	.producto {
+		margin-bottom: 0;
+	}
+
+	/*Eventos*/
+
+	.eventos_fila_2 {
+		padding: 3em 5em;
+	}
+
+	.eventos_especiales {
+		margin-bottom: 1em;
+	}
+
+	/*Socios*/
+
+	.socios_img {
+    	max-width: 60%;
+    	margin-bottom: 2em;
+	}
+
+
+	.socios_div {
+		padding:0 2em;
+	}
+
+	/*instagram */
+
+	.insta_imagen {
+		padding: 0 0.1em;
+	}
+
+	/*Hamburguesa*/
+
+	.navbar-toggler, .dropdown-menu {
+		background-color: rgba(91, 39, 104, 0.8);
+	}
+
+	.navbar-collapse {
+		background-color: rgba(91, 39, 104, 0.8);
+		text-align: center;
+	}
+
+	.dropdown-item {
+		background-color: rgba(91, 39, 104, 0.8);
+		color: white;
+	}
+
+}
+
+/*////    SMARTHPHONE    ////*/
+
+@media (max-width: 600px){
+
+	/*Carousel*/
+
+	.carousel-caption h1 {
+		font-size: 2em;
+	}
+
+	.carousel-caption p {
+		text-align: left;
+	} 
+
+	/*quienes somos*/
+
+	#quienes_somos1 {
+   	   padding: 3em 1em;
+	}
+
+	.quienes_somos2_img{
+		border-radius: 0;
+		width: 600px;
+	}
+
+	#quienes_somos2 {
+		padding: 0;
+		margin-bottom: 3em;
+		min-height: 0;
+	}
+
+	/*productos*/
+
+	.planificadores h2 {
+		margin-bottom: 0.5em;
+	}
+
+	.producto_div {
+		margin-bottom: 2em;
+	}
+
+	/*eventos*/
+
+	.eventos_fila_2 {
+		padding: 2em 3em;
+	}
+
+	.eventos_especiales {
+		margin-bottom: 2em;
+	}
+
+	/*socios*/
+	.socios_div{
+		padding: 2em 2em;
+	}
+
+	#socios h2 {
+		margin-bottom: 1em;
+	}
+
+	#socios {
+	    margin-bottom: 3em;
+	}
+
+	/*instagram*/
+	.insta_imagen {
+		width: 14%;
+		padding: 0;
+	}
+
+	/*Hamburguesa*/
+
+	.navbar-toggler, .dropdown-menu {
+		background-color: rgba(91, 39, 104, 0.8);
+	}
+
+	.navbar-collapse {
+		background-color: rgba(91, 39, 104, 0.8);
+		text-align: center;
+	}
+
+	.dropdown-item {
+		background-color: rgba(91, 39, 104, 0.8);
+		color: white;
+	}
+
+}
+
+
+
+
