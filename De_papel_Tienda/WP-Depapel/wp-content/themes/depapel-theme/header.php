@@ -17,7 +17,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light menu">
 		<a class="navbar-brand img-fluid marca" href="#">
-			<img id="logo" class="img-fluid logo" src="assets/img/depapel.png" alt="De Papel">
+			<img id="logo" class="img-fluid logo" src="<?php bloginfo('template_url');?>/assets/images/depapel.png" alt="De Papel">
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
