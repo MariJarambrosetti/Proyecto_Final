@@ -163,7 +163,15 @@ input::-webkit-input-placeholder {
 
 #quienes_somos1 {
 	padding: 9em 7em;
-	text-align: center;
+	text-align: justify;
+}
+
+#quienes_somos1 h2, .eventos_fila_2 h2 {
+	color: #e94789;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 1.6em;
 }
 
 #quienes_somos1, #quienes_somos2 {
@@ -179,9 +187,15 @@ input::-webkit-input-placeholder {
 
 /*productos planificadores*/
 
-.planificadores h2 {
+.planificadores h2, #socios h2, .insta h2 {
 	text-align: center;
 	margin-bottom: 2.5em;
+	text-align: center;
+    margin-bottom: 2.5em;
+    text-transform: uppercase;
+    color: #5e3068;
+    font-weight: 500;
+    font-size: 1.6em;
 }
 
 .producto {
@@ -214,8 +228,8 @@ input::-webkit-input-placeholder {
 }
 
 .eventos_fila_2 {
-	padding: 9em 4em 3em 3em;
-	text-align: center;
+	padding: 9em 9em 3em 5em;
+	text-align: justify;
 }
 
 .eventos_img1{
