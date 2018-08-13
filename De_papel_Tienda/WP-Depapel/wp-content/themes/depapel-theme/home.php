@@ -4,21 +4,21 @@
 	<div id="carousel_home" class="carousel slide carousel-fade " data-ride="carousel" data-interval="10000">
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img class="d-block w-100" src="assets/img/carusel3.jpg" alt="De papel Tienda">
+				<img class="d-block w-100" src="<?php bloginfo('template_url')?>/assets/images/carusel3.jpg" alt="De papel Tienda">
 				<div class="carousel-caption d-sm-block d-block d-md-block">
 					<h1>De Papel Tienda</h1>
 					<p>Te invitamos a conocer nuestra nueva tienda On - line</p>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img class="d-block w-100" src="assets/img/carusel1.jpg" alt="De papel Tienda">
+				<img class="d-block w-100" src="<?php bloginfo('template_url')?>/assets/images/carusel1.jpg" alt="De papel Tienda">
 				<div class="carousel-caption d-block d-sm-block d-md-block">
 					<h1>De Papel Tienda</h1>
 					<p>Te invitamos a conocer nuestra nueva tienda On - line</p>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img class="d-block w-100" src="assets/img/carusel2.jpg" alt="De papel Tienda">
+				<img class="d-block w-100" src="<?php bloginfo('template_url')?>/assets/images/carusel2.jpg" alt="De papel Tienda">
 				<div class="carousel-caption d-sm-block d-block d-md-block">
 					<h1>De Papel Tienda</h1>
 					<p>Te invitamos a conocer nuestra nueva tienda On - line</p>
@@ -44,7 +44,7 @@
 			</div>
 			<!-- IMAGEN DE 500 X 375 -->
 			<div id="quienes_somos2" class=" col-md-6">
-				<img class="img-fluid quienes_somos2_img" src="assets/img/depapel-1.jpg" alt="De papel Tienda">		
+				<img class="img-fluid quienes_somos2_img" src="<?php bloginfo('template_url')?>/assets/images/depapel-1.jpg" alt="De papel Tienda">		
 			</div>
 		</div>
 	</div>
@@ -59,7 +59,7 @@
 			<!-- producto 1 -->
 			<div class="col-md-3 col-sm-6 producto_div ">
 				<div class="card producto_planificadores">
-					<img class="card-img-top" src="assets/img/planificador1.jpg" alt="Planificador Disponible">
+					<img class="card-img-top" src="<?php bloginfo('template_url')?>/assets/images/planificador1.jpg" alt="Planificador Disponible">
 					<div class="card-body">
 						<h5 class="card-title">Card title</h5>
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -70,7 +70,7 @@
 			<!-- producto 2	 -->
 			<div class="col-md-3 col-sm-6 producto_div ">
 				<div class="card producto_planificadores">
-					<img class="card-img-top" src="assets/img/planificador2.jpg" alt="Planificador Disponible">
+					<img class="card-img-top" src="<?php bloginfo('template_url')?>/assets/images/planificador2.jpg" alt="Planificador Disponible">
 					<div class="card-body">
 						<h5 class="card-title">Card title</h5>
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -81,7 +81,7 @@
 			<!-- producto 3	 -->
 			<div class="col-md-3 col-sm-6 producto_div ">
 				<div class="card producto_planificadores">
-					<img class="card-img-top" src="assets/img/planificador1.jpg" alt="Planificador Disponible">
+					<img class="card-img-top" src="<?php bloginfo('template_url')?>/assets/images/planificador1.jpg" alt="Planificador Disponible">
 					<div class="card-body">
 						<h5 class="card-title">Card title</h5>
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -92,7 +92,7 @@
 			<!-- producto 4 -->
 			<div class="col-md-3 col-sm-6 producto_div ">
 				<div class="card producto_planificadores">
-					<img class="card-img-top" src="assets/img/planificador2.jpg" alt="Planificador Disponible">
+					<img class="card-img-top" src="<?php bloginfo('template_url')?>/assets/images/planificador2.jpg" alt="Planificador Disponible">
 					<div class="card-body">
 						<h5 class="card-title">Card title</h5>
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -134,7 +134,7 @@
 		<div class="row">
 			<!-- creativas emprenden -->
 			<div class="socios_div col-md-6 col-sm-6">
-				<img class="img-fluid socios_img creativas" src="assets/img/creativas_emprenden.jpg" alt="Creativas emprenden">
+				<img class="img-fluid socios_img creativas" src="<?php bloginfo('template_url')?>/assets/images/creativas_emprenden.jpg" alt="Creativas emprenden">
 				<p>Fomentamos el aprendizaje, nos inspiramos y unidas generamos redes de apoyo para hacer crecer nuestros emprendimientos.</p>
 				<!-- iconos -->
 				<a href="www.cretivasemprenden.cl">
@@ -149,7 +149,7 @@
 			</div>
 			<!-- goso -->
 			<div class="socios_div col-md-6 col-sm-6">
-				<img class="img-fluid socios_img goso" src="assets/img/gosologo.jpg" alt="Goso">
+				<img class="img-fluid socios_img goso" src="<?php bloginfo('template_url')?>/assets/images/gosologo.jpg" alt="Goso">
 				<p>Somos un equipo multidisciplinario, gestores creativos, del desarrollo humano, el bienestar y la felicidad.</p>
 				<!-- iconos -->
 				<a href="www.goso.cl">
