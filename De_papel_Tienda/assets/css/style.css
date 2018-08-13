@@ -16,7 +16,7 @@ body {
 	position: fixed;
 	z-index: 1;
 	width: 100%;
-	background-image: url(../images/menu.png);
+	background-image: url(../img/menu.png);
 	background-color: transparent!important;
 	background-position: top;
     background-size: cover;
@@ -71,7 +71,7 @@ input::-webkit-search-decoration, input::-webkit-search-cancel-button {
 
 input[type=search] {
 
-	background: #ededed url(../ico/search-solid.svg) no-repeat 9px center;
+	background: #ededed url(../icons/search-solid.svg) no-repeat 9px center;
 	border: solid 1px #ccc;
 	padding: 6px 11px 6px 11px;
 	width: 55px;
@@ -233,7 +233,7 @@ input::-webkit-input-placeholder {
 }
 
 .eventos_img1{
-	background-image: url(../images/eventos1.jpg);
+	background-image: url(../img/eventos1.jpg);
 	background-size: cover;
 	width: 60%;
 	height: 551px;
@@ -249,7 +249,7 @@ input::-webkit-input-placeholder {
 }
 
 .eventos_img2 {
-	background-image: url(../images/eventos2.jpg);
+	background-image: url(../img/eventos2.jpg);
 	background-size: cover;
 	width: 40%;
 	height: 300px;
@@ -257,7 +257,7 @@ input::-webkit-input-placeholder {
 }
 
 .eventos_img3 {
-	background-image: url(../images/eventos3.jpg);
+	background-image: url(../img/eventos3.jpg);
 	background-size: cover;
 	width: 40%;
 	height: 251px;
