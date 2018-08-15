@@ -39,9 +39,9 @@ $(window).scroll(function(event) {
 	var scroll_position =  $(window).scrollTop();
 
 	if ( scroll_position > limit ) {
-		$("#logo").attr('src', 'wp-content/themes/depapel-theme/assets/images/depapel_1.png');
+		$("#logo").attr('src', params.url + '/assets/images/depapel_1.png');
 	} else {
-		$("#logo").attr('src', 'wp-content/themes/depapel-theme/assets/images/depapel.png');
+		$("#logo").attr('src', params.url + '/assets/images/depapel.png');
 	}
 
 
