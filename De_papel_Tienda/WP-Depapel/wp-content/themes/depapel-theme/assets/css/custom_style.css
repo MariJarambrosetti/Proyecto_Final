@@ -43,6 +43,11 @@ body {
 	color: white;
 }
 
+/*PARA EL HOVER DEL MENU, QUE SE MUESTRE AL PASAR EL PUNTERO*/
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
 /*boton buscar */
 
 a {
