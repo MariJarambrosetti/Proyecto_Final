@@ -171,7 +171,7 @@ input::-webkit-input-placeholder {
 	text-align: justify;
 }
 
-#quienes_somos1 h2, .eventos_fila_2 h2 {
+#quienes_somos1 h2, .eventos_fila_2 h2, .blog h2 {
 	color: #e94789;
     font-weight: 500;
     text-transform: uppercase;
@@ -192,7 +192,7 @@ input::-webkit-input-placeholder {
 
 /*productos planificadores*/
 
-.planificadores h2, #socios h2, .insta h2 {
+.planificadores h2, #socios h2, .insta h2, .blog_titulo {
 	text-align: center;
 	margin-bottom: 2.5em;
 	text-align: center;
@@ -304,6 +304,12 @@ input::-webkit-input-placeholder {
 
 .creativas a, .goso a{
 	text-decoration: none;
+}
+
+/*blog */
+
+.blog_1 h2, .blog_2 h2 {
+	text-align: center;
 }
 
 /*instagram */

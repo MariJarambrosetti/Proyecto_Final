@@ -165,6 +165,20 @@
 		</div>
 	</div>
 
+	<!-- blog -->
+
+	<div id="container">
+		<h2 class="blog_titulo">Blog</h2>
+		<div class="row blog">
+			<div class="col-md-6 blog_1">
+				<h2>Titulo de las entradas</h2>
+			</div>
+			<div class="col-md-6 blog_2">
+				<h2>Titulo de las entradas</h2>
+			</div>
+		</div>
+	</div>
+
 	<!-- instagram Feed-->
 	<div class="container-fluid insta">
 		<h2>Síguenos en Instagram</h2>
