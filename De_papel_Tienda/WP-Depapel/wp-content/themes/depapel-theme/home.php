@@ -170,6 +170,8 @@
 		<h2>Síguenos en Instagram</h2>
 		<div id="instafeed" class="row"></div>
 	</div>
-<?php get_sidebar() ?>
+<!-- <?php 
+// get_sidebar() 
+?> -->
 
 <?php get_footer() ?>
