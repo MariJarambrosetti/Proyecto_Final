@@ -30,7 +30,7 @@ function dl_enqueue_scripts() {
 	wp_register_script( 'instafeed', get_theme_file_uri( '/assets/js/lib/instafeed.min.js' ), null, null, true );
 	wp_register_script( 'google_api', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBWKkzjlmSK7o61dWdOEVme8-dYl_m5phM&callback=initMap', null, null, true);
 	wp_register_script( 'custom_js', get_theme_file_uri( '/assets/js/custom_scripts.js' ), null, null, true );
-
+	wp_register_script( 'google_an', 'https://www.googletagmanager.com/gtag/js?id=UA-124029786-1', null, null, false);
 
 	if ( $theme_options['woocommerce_enabled'] || $theme_options['slider']['flexslider'] || $theme_options['slider']['flickity'] ) {
 
@@ -61,6 +61,7 @@ function dl_enqueue_scripts() {
 	wp_enqueue_script( 'instafeed' );
 	wp_enqueue_script( 'params' );
 	wp_enqueue_script( 'custom_js' );
+	wp_enqueue_script( 'google_an' );
 
 }
 
