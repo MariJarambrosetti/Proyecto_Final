@@ -11,11 +11,7 @@
 
 <body>
 
-<?php if ( has_nav_menu( 'header-menu' ) ) { ?>
-	<?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'container_class' => 'header_menu' ) ); ?>
-<?php } ?>
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light menu">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light menu">
 		<a class="navbar-brand img-fluid marca" href="#">
 			<img id="logo" class="img-fluid logo" src="<?php bloginfo('template_url');?>/assets/images/depapel.png" alt="De Papel">
 		</a>
@@ -24,6 +20,11 @@
 		</button>
 
 		<div class="collapse navbar-collapse menu_inner" id="navbarSupportedContent">
+
+			<!-- <?php if ( has_nav_menu( 'header-menu' ) ) { ?>
+				<?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'container' => null ) ); ?>
+			<?php } ?> -->
+
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

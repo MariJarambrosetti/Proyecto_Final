@@ -167,14 +167,16 @@
 
 	<!-- blog -->
 
-	<div id="container">
+	<div id="container-fluid">
 		<h2 class="blog_titulo">Blog</h2>
 		<div class="row blog">
-			<div class="col-md-6 blog_1">
+			<div class="col-md-6 col-sm blog_1">
 				<h2>Titulo de las entradas</h2>
+				<img class="img-fluid" src="<?php bloginfo('template_url')?>/assets/images/depapel-1.jpg" alt="">
 			</div>
-			<div class="col-md-6 blog_2">
+			<div class="col-md-6 col-sm blog_2">
 				<h2>Titulo de las entradas</h2>
+				<img class="img-fluid" src="<?php bloginfo('template_url')?>/assets/images/depapel-1.jpg" alt="">
 			</div>
 		</div>
 	</div>

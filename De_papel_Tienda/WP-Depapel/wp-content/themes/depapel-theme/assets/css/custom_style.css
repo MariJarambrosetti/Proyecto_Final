@@ -308,8 +308,19 @@ input::-webkit-input-placeholder {
 
 /*blog */
 
-.blog_1 h2, .blog_2 h2 {
+.blog_1 h2, .blog_2 h2, .blog{
 	text-align: center;
+	margin-bottom: 1em;
+}
+
+.blog_1, .blog_2 {
+	padding: 0;
+	margin-bottom: 5em;
+}
+
+.row {
+	margin-right: 0;
+	margin-right: 0;
 }
 
 /*instagram */
