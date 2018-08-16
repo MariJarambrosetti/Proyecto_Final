@@ -1,18 +1,5 @@
 var window_size, limit;
 
-
-// API GOOGLE MAPS
-
-	function initMap(){
-		var vina = {'lat': -33.015348, 'lng':  -71.550028}
-
-		map = new google.maps.Map(document.getElementById('map'), {
-			center: vina, 
-			zoom: 13 
-		});		
-	};
-
-
 (function($) {
 	
 	// instagram
