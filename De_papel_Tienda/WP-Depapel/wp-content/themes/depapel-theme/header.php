@@ -10,7 +10,6 @@
 </head>
 
 <body>
-
 	<nav class="navbar navbar-expand-lg navbar-light bg-light menu">
 		<a class="navbar-brand img-fluid marca" href="#">
 			<img id="logo" class="img-fluid logo" src="<?php bloginfo('template_url');?>/assets/images/depapel.png" alt="De Papel">
@@ -21,11 +20,21 @@
 
 		<div class="collapse navbar-collapse menu_inner" id="navbarSupportedContent">
 
-			<!-- <?php if ( has_nav_menu( 'header-menu' ) ) { ?>
-				<?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'container' => null ) ); ?>
-			<?php } ?> -->
+			<?php if ( has_nav_menu( 'header-menu' ) ) { ?>
+				<?php wp_nav_menu( array(
+					'theme_location' => 'header-menu',
+					'container' => false,
+					'menu_class'      	=> 'nav navbar-nav ml-auto',
+					'menu_id'         	=> '',
+					'echo'            	=> true,
+					'fallback_cb'     	=> 'wp_page_menu',
+					'items_wrap'      	=> '<ul id="%1$s" class="%2$s">%3$s</ul>',
+					'depth'           	=> 2,
+					'walker'          	=> ''
+				)); ?>
+			<?php } ?>
 
-			<ul class="navbar-nav ml-auto">
+			<!--<ul class="navbar-nav ml-auto">
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						Planificadores
@@ -61,6 +70,6 @@
 				<form id="buscar" action="#">
 					<input class="buscando" type="search" placeholder="Search">
 				</form>
-			</ul>
+			</ul> -->
 		</div>
 	</nav>
