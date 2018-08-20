@@ -176,7 +176,6 @@
 				'post_type'		 => 'post',
 				'category_name'	 => 'blog',
 				'posts_per_page' => 2
-				// 'offset'		 => 1
 			);
 
 			$get_post_a = new WP_Query( $post_a );
@@ -184,13 +183,18 @@
 			while ( $get_post_a->have_posts() ) {
 				$get_post_a->the_post();
 
-				$thumb_id = get_post_thumbnail_id();
-				$thumb_url = wp_get_attachment_image_url( $thumb_id, 'thumbnail-size', true );
-				?>	
-				<!-- post 1 del blog -->
+				// $thumb_id = get_post_thumbnail_id();
+				// $thumb_url = wp_get_attachment_image_url( $thumb_id, 'thumbnail-size', true );
+
+				// Ruta de la imagen destacada (tamaño completo)
+				global $post;
+				$thumbID = get_post_thumbnail_id( $post->ID );
+				$imgDestacada = wp_get_attachment_url( $thumbID );
+			?>	
+				<!-- posts del blog -->
 				<div class="col-md-6 col-sm blog_1">
 					<a href=" <?php the_permalink(); ?>"><h2><?php the_title(); ?></h2></a>
-					<img class="img-fluid" src="<?php bloginfo('template_url')?>/assets/images/depapel-1.jpg" alt="">
+					<img class="img-fluid blog_imagen" src="<?php echo $imgDestacada; ?>" alt="">
 				</div>
 			<?php } wp_reset_postdata();?>
 

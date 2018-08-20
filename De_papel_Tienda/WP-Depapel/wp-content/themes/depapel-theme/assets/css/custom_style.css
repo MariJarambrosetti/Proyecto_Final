@@ -314,8 +314,8 @@ input::-webkit-input-placeholder {
 	margin-bottom: 1em;
 }
 
-.blog_1, .blog_2 {
-	padding: 0;
+.blog_1 {
+	padding: 2em;
 	margin-bottom: 5em;
 }
 
