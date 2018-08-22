@@ -4,21 +4,21 @@
 	<div id="carousel_home" class="carousel slide carousel-fade " data-ride="carousel" data-interval="10000">
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img class="d-block w-100" src="<?php bloginfo('template_url')?>/assets/images/carusel33.jpg" alt="De papel Tienda">
+				<img class="d-block w-100" src="<?php bloginfo('template_url')?>/assets/images/carusel3.jpg" alt="De papel Tienda">
 				<div class="carousel-caption d-sm-block d-block d-md-block">
 					<h1>De Papel Tienda</h1>
 					<p>Te invitamos a conocer nuestra nueva tienda On - line</p>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img class="d-block w-100" src="<?php bloginfo('template_url')?>/assets/images/carusel11.jpg" alt="De papel Tienda">
+				<img class="d-block w-100" src="<?php bloginfo('template_url')?>/assets/images/carusel1.jpg" alt="De papel Tienda">
 				<div class="carousel-caption d-block d-sm-block d-md-block">
 					<h1>De Papel Tienda</h1>
 					<p>Te invitamos a conocer nuestra nueva tienda On - line</p>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img class="d-block w-100" src="<?php bloginfo('template_url')?>/assets/images/carusel22.jpg" alt="De papel Tienda">
+				<img class="d-block w-100" src="<?php bloginfo('template_url')?>/assets/images/carusel2.jpg" alt="De papel Tienda">
 				<div class="carousel-caption d-sm-block d-block d-md-block">
 					<h1>De Papel Tienda</h1>
 					<p>Te invitamos a conocer nuestra nueva tienda On - line</p>

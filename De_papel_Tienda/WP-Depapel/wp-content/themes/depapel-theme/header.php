@@ -11,7 +11,7 @@
 
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light menu">
-		<a class="navbar-brand img-fluid marca" href="http://localhost:8888">
+		<a class="navbar-brand img-fluid marca" href="http://186.64.118.50/~feg7mariana">
 			<img id="logo" class="img-fluid logo" src="<?php bloginfo('template_url');?>/assets/images/depapel.png" alt="De Papel">
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
