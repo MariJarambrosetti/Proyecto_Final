@@ -7,4 +7,6 @@ Desarrollado desde 0 para De Papel Tienda.
 
 ![DepapelTienda](De_papel_Tienda/assets/img/depapel.jpg) 
 
-**Instrucciónes**
+**Instrucciones**<br/>
+- Assets -> Contiene la versión de web estática
+- 
