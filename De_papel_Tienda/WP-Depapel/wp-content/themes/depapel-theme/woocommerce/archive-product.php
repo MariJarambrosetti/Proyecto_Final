@@ -46,6 +46,15 @@ do_action( 'woocommerce_before_main_content' );
 	?>
 </header>
 
+<?php
+/**
+ * Hook: woocommerce_after_main_content.
+ *
+ * @hooked woocommerce_output_content_wrapper_end - 10 (outputs closing divs for the content)
+ */
+do_action( 'woocommerce_after_main_content' );
+?>
+
 <div class="container-fluid">
 	<div class="row">
 		<div class="sidebar-wo col-md-2">
@@ -102,19 +111,13 @@ do_action( 'woocommerce_before_main_content' );
 </div>	
 </div>
 
-<?php
-/**
- * Hook: woocommerce_after_main_content.
- *
- * @hooked woocommerce_output_content_wrapper_end - 10 (outputs closing divs for the content)
- */
-do_action( 'woocommerce_after_main_content' );
-
+<?php 
 /**
  * Hook: woocommerce_sidebar.
  *
  * @hooked woocommerce_get_sidebar - 10
  */
+
 
 
 get_footer( 'shop' );
