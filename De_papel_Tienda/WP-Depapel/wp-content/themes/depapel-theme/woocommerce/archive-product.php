@@ -55,7 +55,7 @@ do_action( 'woocommerce_before_main_content' );
 do_action( 'woocommerce_after_main_content' );
 ?>
 
-<div class="container-fluid">
+<div class="container-fluid contenedor-productos">
 	<div class="row">
 		<div class="sidebar-wo col-md-2">
 			<?php do_action( 'woocommerce_sidebar' ); ?>
