@@ -8,6 +8,10 @@
 	<h1><?php the_title();?></h1>
 </header>
 
-<?php the_content(); ?>
+<main class="content gallery">
+    <div class="container">
+        <?php the_content(); ?>
+    </div>
+</main>
 
 <?php get_footer() ?>
