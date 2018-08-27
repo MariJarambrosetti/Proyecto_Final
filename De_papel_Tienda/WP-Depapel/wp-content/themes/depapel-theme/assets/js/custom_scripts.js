@@ -1,4 +1,4 @@
-var window_size, limit;
+var window_size, limit, limit2;
 
 (function($) {
 	
@@ -15,31 +15,35 @@ var window_size, limit;
 
 	window_size = $(window).width();
 	limit = $('#carousel_home').outerHeight() - 85;
+	limit2 = $('#primary').outerHeight() - 85;
+	
+
 
 })(jQuery);
 
 
-// regla para que cambie de color el logo
+// regla para que cambie de color
 $(window).scroll(function(event) {
+
 	event.preventDefault();
 
 	var scroll_position =  $(window).scrollTop();
 
 	if ( scroll_position > limit ) {
 		$("#logo").attr('src', params.url + '/assets/images/depapel_1.png');
+	} else if (scroll_position > limit2 ) {
+		$("#logo").attr('src', params.url + '/assets/images/depapel_1.png');
 	} else {
 		$("#logo").attr('src', params.url + '/assets/images/depapel.png');
 	}
 
 
+
 	if ( scroll_position > limit && window_size > 980 ) {
+		$(".nav-link").attr('style', 'color :#343a40!important');
 		$(".nav-link").attr('style', 'color :#343a40!important');
 	} else {
 		$(".nav-link").attr('style', 'color :white!important');
 	}
 
 });
-
-// regla para el cambio de color del menu
-
-
