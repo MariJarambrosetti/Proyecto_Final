@@ -41,6 +41,7 @@ $(window).scroll(function(event) {
 
 	if ( scroll_position > limit && window_size > 980 ) {
 		$(".nav-link").attr('style', 'color :#343a40!important');
+	} else if ( scroll_position > limit2 && window_size > 980) {
 		$(".nav-link").attr('style', 'color :#343a40!important');
 	} else {
 		$(".nav-link").attr('style', 'color :white!important');
