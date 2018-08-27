@@ -207,6 +207,20 @@ input::-webkit-input-placeholder {
 .producto {
 	padding: 2em;
 	margin-bottom: 3em;
+	box-sizing: border-box;
+}
+
+.producto li {
+	margin: 0;
+	padding: 1em;
+	max-width: 25%!important; 
+	box-sizing: border-box!important;
+}
+
+.producto li h2 {
+	font-size: 1.2em;
+	text-align: left;
+	margin-bottom: 1em;
 }
 
 .producto_planificadores {
@@ -396,6 +410,12 @@ input::-webkit-input-placeholder {
 		padding: 0 2em;
 	}
 
+	/*productos*/
+
+	.producto li h2 {
+	font-size: 0.8em;
+	}
+
 	/*Hamburguesa*/
 
 	.navbar-toggler, .dropdown-menu {
@@ -449,6 +469,10 @@ input::-webkit-input-placeholder {
 
 	.producto {
 		margin-bottom: 0;
+	}
+
+	.producto li {
+	max-width: 50%!important; 
 	}
 
 	/*Eventos*/
@@ -536,6 +560,15 @@ input::-webkit-input-placeholder {
 
 	.producto_div {
 		margin-bottom: 2em;
+	}
+
+	.producto li {
+	max-width: 100%!important; 
+	}
+
+	.producto {
+		padding: 5em;
+		margin-bottom: 0;
 	}
 
 	/*eventos*/
