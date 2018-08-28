@@ -2,7 +2,7 @@
 
 ## Template De Papel Tienda
 Proyecto final Desafio Latam, 24 Agosto 2018. 
-Desarrollado desde 0 para De Papel Tienda.
+Desarrollado desde 0 para De Papel Tienda. Versión: 1.0
 <br/>
 
 ![DepapelTienda](De_papel_Tienda/assets/img/depapel.jpg) 
