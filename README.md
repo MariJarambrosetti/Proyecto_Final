@@ -15,4 +15,4 @@ Desarrollado desde 0 para De Papel Tienda.
 - Importar contenido de la base de datos de la carpeta db
 - Instalar Wordpress, reemplazar toda la carpeta wp-content
 
-186.64.118.50/~feg7mariana/ 
+ [ De Papel Tienda ](186.64.118.50/~feg7mariana/ )
