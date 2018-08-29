@@ -7,7 +7,7 @@ Desarrollado desde 0 para De Papel Tienda. Versión: 1.0
 
 ![DepapelTienda](De_papel_Tienda/assets/img/depapel.jpg) 
 
-###Instrucciones
+## Instrucciones
 - Assets -> Contiene la versión de web estática
 - WP-Depapel -> Contiene todo el Wordpress junto con la carpeta WP-CONTENT
 - DB -> Contiene la base de datos. 
